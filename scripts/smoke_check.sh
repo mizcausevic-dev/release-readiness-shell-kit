@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "${ROOT_DIR}"
 
-scripts/generate_site.sh >/dev/null
+bash scripts/generate_site.sh >/dev/null
 
 required=(
   "site/index.html"
@@ -27,4 +27,3 @@ for needle in "Release readiness shell kit" "/rollback-posture/" "platform engin
 done
 
 echo "Smoke check passed."
-
