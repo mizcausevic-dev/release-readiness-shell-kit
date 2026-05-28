@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#05070c"/>
+  <rect x="48" y="48" width="1504" height="804" rx="30" fill="#0b1220" stroke="#17324d" stroke-width="2"/>
+  <text x="96" y="118" fill="#ffcc66" font-family="ui-monospace,Consolas,monospace" font-size="26" letter-spacing="6">ROLLBACK POSTURE</text>
+  <text x="96" y="196" fill="#f2f7ff" font-family="Georgia,Times New Roman,serif" font-size="58" font-weight="700">Rollback readiness and launch action stay explicit.</text>
+  <text x="96" y="272" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">Hold threads require named rollback owners and freeze clearance.</text>
+  <text x="96" y="320" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">Conditional-ship lanes stay visible before the launch window closes.</text>
+</svg>
