@@ -101,7 +101,7 @@ overview_content="$(cat <<EOF
 </section>
 <section class="section"><div class="sh"><h2>Programs to review first</h2><div class="note">Buyer-readable remediation sequence</div></div><div class="cards">${release_cards}</div></section>
 <div class="quote"><div class="lbl">Why this matters</div><div class="q">A shell release kit is monetizable when the same Bash analysis can become a preflight template pack, a rollback drill starter, or embedded release-governance support.</div></div>
-<footer><div>discipline · platform release operations</div><div>focus · blockers / rollback / freeze posture</div><div>overview snapshot</div></footer>
+<footer><div>discipline · platform release operations</div><div>focus · blockers / rollback / freeze posture</div><div>overview snapshot</div><div><a href="https://github.com/mizcausevic-dev/">GitHub</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div></footer>
 EOF
 )"
 
@@ -174,4 +174,3 @@ cat > "${SITE_DIR}/sitemap.xml" <<EOF
 EOF
 
 printf 'Generated site at %s\n' "${SITE_DIR}"
-
