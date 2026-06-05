@@ -27,16 +27,16 @@ Bash-native operator surface for Platform Engineering teams reviewing release wi
 ## Local development
 
 ```powershell
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/release-readiness-shell-kit && scripts/run_demo.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/release-readiness-shell-kit && scripts/generate_site.sh"
+bash scripts/run_demo.sh
+bash scripts/generate_site.sh
 ```
 
 ## Validation
 
 ```powershell
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/release-readiness-shell-kit && test/runtests.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/release-readiness-shell-kit && scripts/smoke_check.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/release-readiness-shell-kit && scripts/render_readme_assets.sh"
+bash test/runtests.sh
+bash scripts/smoke_check.sh
+bash scripts/render_readme_assets.sh
 ```
 
 ## Why this matters
@@ -55,4 +55,3 @@ This can ladder into release preflight packs, rollback drills, freeze-window run
 ---
 
 Part of the [Kinetic Gain operator portfolio](https://kineticgain.com/) · docs: [suite.kineticgain.com](https://suite.kineticgain.com/) · live: [release.kineticgain.com](https://release.kineticgain.com/)
-
