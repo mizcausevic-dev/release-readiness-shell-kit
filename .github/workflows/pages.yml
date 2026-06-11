@@ -29,7 +29,7 @@ jobs:
           bash test/runtests.sh
           bash scripts/smoke_check.sh
           bash scripts/render_readme_assets.sh
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
